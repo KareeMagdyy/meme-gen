@@ -1,0 +1,30 @@
+.header {
+  background: linear-gradient(to left, #a626d3, #672280);
+  color: #ffffff;
+}
+
+.header .container {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.header .container img {
+  max-width: 100%;
+  width: 31.31px;
+}
+
+.header .container h1 {
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+}
+
+.header .container p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  margin-left: auto;
+}

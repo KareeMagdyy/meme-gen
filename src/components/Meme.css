@@ -1,0 +1,49 @@
+.meme {
+  margin-top: 2.25rem;
+  text-align: center;
+}
+
+.meme-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.meme-inputs input {
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  height: 35px;
+  width: 50%;
+}
+
+.meme-inputs input:focus {
+  outline: 1px solid purple;
+}
+
+input {
+  font-family: "Karla", sans-serif;
+}
+
+.meme .container .submit {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  height: 35px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.meme-image {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
