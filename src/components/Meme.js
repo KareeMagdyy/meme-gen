@@ -11,9 +11,12 @@ function Meme() {
 
   // Calling API
   useEffect(() => {
-    fetch("https://api.imgflip.com/get_memes")
-      .then((response) => response.json())
-      .then((data) => setAllMemeData(data));
+    async function getMemes() {
+      const res = await fetch("https://api.imgflip.com/get_memes");
+      const data = await res.json();
+      setAllMemeData(data);
+    }
+    getMemes();
   }, []);
 
   function getMemeImage() {
